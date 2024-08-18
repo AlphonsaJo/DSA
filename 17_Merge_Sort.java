@@ -1,6 +1,6 @@
 /*
 
-is more predictable in terms of performance and is stable,.
+It is more predictable in terms of performance and is stable,.
 It’s particularly useful when stability is a requirement or when working with linked lists.
 
 Algorithm Type: Comparison-based, divide-and-conquer.
