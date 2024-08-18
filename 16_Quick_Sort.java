@@ -1,3 +1,23 @@
+/*
+
+1. Comparison Based, Divide and Conquer Sorting
+2. Utilizes in-place sorting (Therefore, it requires relatively less memory compared to other sorting algorithms 
+   such as Merge Sort
+3. Maintains Stability
+4. Time Complexity:
+- Avg Case - O(nlogn)
+- Worst Case - O(n^2)
+- Best Case - O(nlogn)
+Space Complexity - O(logn) due to stack space for recursion
+
+Applications:
+Standard Libraries: Used for general-purpose sorting in many programming language libraries.
+Computer Graphics: Employed in tasks such as depth sorting in rendering and image processing.
+Databases: Applied in indexing and query optimization for efficient data retrieval.
+Networking: Used for sorting routing tables and processing network packets.
+
+*/
+
 public class QuickSort {
 
     // Function to perform quicksort on an array
