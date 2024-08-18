@@ -8,7 +8,7 @@
 - Avg Case - O(nlogn)
 - Worst Case - O(n^2)
 - Best Case - O(nlogn)
-Space Complexity - O(logn) due to stack space for recursion
+5. Space Complexity - O(logn) due to stack space for recursion
 
 Applications:
 Standard Libraries: Used for general-purpose sorting in many programming language libraries.
