@@ -12,3 +12,7 @@ class Node {
         this.next = null;
     }
 }
+
+Class list {
+
+}
