@@ -13,6 +13,23 @@ class Node {
     }
 }
 
-Class list {
+Class Mid_list {
 
+}
+
+public class Find_Mid{
+
+    Vector vector = new Vector<>();
+    static int return_mid(Node head){
+        if(head!=null){
+            vector.add(head.data);
+            head = head.next;
+        }
+
+        int mid_index = vector.size() / 2;
+
+        return mid_index;
+
+
+    }
 }
