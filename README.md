@@ -11,9 +11,8 @@ https://pomodoro-tracker.com/?category=Coding
 <h2 style="font-family: Arial; color: coral;">1. Backtracking:</h2>
 
 <p style="font-family: Georgia; font-size: 18px;">
-<b>Q. What is Backtracking?</b><br><br>
 
-<b>Ans:</b> <span style="color: black;">Backtracking</span> is a 
+ <span style="color: black;">Backtracking</span> is a 
 <span style="color: darkorange;"><b>general algorithmic technique</b></span> used to solve problems 
 <span style="color: royalblue;">incrementally by trying out different possibilities</span> 
 and <span style="color: red;">discarding those that don't meet the conditions</span>.
