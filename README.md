@@ -6,7 +6,7 @@ https://pomodoro-tracker.com/?category=Coding
 
 ![ASCII TABLE](https://github.com/user-attachments/assets/d78cc4c7-a1bd-441b-87a4-f29a91301c79)
 
-<h1 style="font-family: Arial; color: darkslateblue;">Programming</h1>
+<h1 style="font-family: Arial; color: darkslateblue;">Key Concepts</h1>
 
 <h2 style="font-family: Arial; color: coral;">1. Backtracking:</h2>
 
