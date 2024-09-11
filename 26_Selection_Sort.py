@@ -14,3 +14,25 @@ Q. Why initialize min_index = i inside the loop?:
 
 
 '''
+
+
+
+def selection_sort(arr):
+    n= len(arr)
+    temp = 0
+    for i in range(0, n):
+        
+        min_i = arr[i] #Assume
+        for j in range(i+1, n):
+          
+            
+            if arr[j] < arr[min_i]:  
+                min_i = j 
+
+        
+        arr[i], arr[min_i] = arr[min_i], arr[i]
+                
+    return arr
+
+arr = [9, 8, 7, 3]
+print(selection_sort(arr))
