@@ -6,6 +6,23 @@ https://pomodoro-tracker.com/?category=Coding
 
 ![ASCII TABLE](https://github.com/user-attachments/assets/d78cc4c7-a1bd-441b-87a4-f29a91301c79)
 
+| **Sorting Algorithm**   | **Best-Case Time Complexity** | **Average-Case Time Complexity** | **Worst-Case Time Complexity** | **Space Complexity** |
+|-------------------------|-------------------------------|----------------------------------|---------------------------------|----------------------|
+| **Bubble Sort**          | O(n)                          | O(n²)                            | O(n²)                           | O(1)                 |
+| **Selection Sort**       | O(n²)                         | O(n²)                            | O(n²)                           | O(1)                 |
+| **Insertion Sort**       | O(n)                          | O(n²)                            | O(n²)                           | O(1)                 |
+| **Merge Sort**           | O(n log n)                    | O(n log n)                       | O(n log n)                      | O(n)                 |
+| **Quick Sort**           | O(n log n)                    | O(n log n)                       | O(n²)                           | O(log n)             |
+| **Heap Sort**            | O(n log n)                    | O(n log n)                       | O(n log n)                      | O(1)                 |
+| **Counting Sort**        | O(n + k)                      | O(n + k)                         | O(n + k)                        | O(k)                 |
+| **Radix Sort**           | O(nk)                         | O(nk)                            | O(nk)                           | O(n + k)             |
+| **Bucket Sort**          | O(n + k)                      | O(n + k)                         | O(n²)                           | O(n)                 |
+| **Shell Sort**           | O(n log n)                    | O(n log² n)                      | O(n log² n)                     | O(1)                 |
+| **Tim Sort**             | O(n)                          | O(n log n)                       | O(n log n)                      | O(n)                 |
+| **Tree Sort**            | O(n log n)                    | O(n log n)                       | O(n²)                           | O(n)                 |
+| 
+
+
 <h1 style="font-family: Arial; color: darkslateblue;">Key Concepts</h1>
 
 <h2 style="font-family: Arial; color: coral;">1. Backtracking:</h2>
