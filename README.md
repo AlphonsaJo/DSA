@@ -1,11 +1,5 @@
 # DSA
 
-https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/
-
-https://pomodoro-tracker.com/?category=Coding
-
-![ASCII TABLE](https://github.com/user-attachments/assets/d78cc4c7-a1bd-441b-87a4-f29a91301c79)
-
 | **Sorting Algorithm**   | **Best-Case Time Complexity** | **Average-Case Time Complexity** | **Worst-Case Time Complexity** | **Space Complexity** |
 |-------------------------|-------------------------------|----------------------------------|---------------------------------|----------------------|
 | **Bubble Sort**          | O(n)                          | O(n²)                            | O(n²)                           | O(1)                 |
@@ -71,5 +65,7 @@ def backtrack(solution, choices):
 
 - Space Complexity: O(V), due to storage required for the queue and visited list.
 
+
+Source: https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/
 
 
