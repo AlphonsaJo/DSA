@@ -60,4 +60,16 @@ def backtrack(solution, choices):
             backtrack(solution, choices)
             undo_choice(choice)
 
+```
+<h2 style="font-family: Arial; color: coral;">2. BFS </h2>
+ 
+- An algorithm for traversing or searching a graph or tree level by level, exploring all neighboring nodes before moving to the next level.
+
+- Data Structure Used: BFS uses a queue to process nodes in the order they are discovered.
+
+- Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
+
+- Space Complexity: O(V), due to storage required for the queue and visited list.
+
+
 
