@@ -1,5 +1,16 @@
 # DSA
 
+Data structures are specialized formats for organizing and storing data, such as arrays, linked lists, stacks, and trees. Algorithms are step-by-step procedures or formulas for solving problems and performing tasks, like sorting and searching.
+
+### Importance of DSA
+
+   - Efficiency: Understanding DSA helps optimize the performance of programs, ensuring they run faster and use fewer resources.
+   - Problem Solving: DSA provides a framework for solving complex problems methodically, making it easier to design effective solutions.
+   - Scalability: Well-structured data can handle larger datasets and complex applications, which is essential in today's data-driven world.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
 | **Sorting Algorithm**   | **Best-Case Time Complexity** | **Average-Case Time Complexity** | **Worst-Case Time Complexity** | **Space Complexity** |
 |-------------------------|-------------------------------|----------------------------------|---------------------------------|----------------------|
 | **Bubble Sort**          | O(n)                          | O(n²)                            | O(n²)                           | O(1)                 |
@@ -16,54 +27,68 @@
 | **Tree Sort**            | O(n log n)                    | O(n log n)                       | O(n²)                           | O(n)                 |
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h1 style="font-family: Arial; color: darkslateblue;">Key Concepts</h1>
+## 1. Basic Data Structures
+- **Stacks**
+  - A collection of elements with Last-In-First-Out (LIFO) access.
+  - Supports operations like push (add an item) and pop (remove the top item).
+  
+- **Queues**
+  - A collection of elements with First-In-First-Out (FIFO) access.
+  - Supports operations like enqueue (add an item) and dequeue (remove the front item).
 
-<h2 style="font-family: Arial; color: coral;">1. Backtracking:</h2>
+## 2. Linear Data Structures
+- **Arrays**
+  - A collection of items stored in contiguous memory locations.
+  - Allows fast access to elements using an index.
+  
+- **Linked Lists**
+  - A collection of nodes, each containing data and a reference to the next node.
+  - Supports dynamic size and efficient insertions/deletions.
 
-<p style="font-family: Georgia; font-size: 18px;">
+## 3. Non-linear Data Structures
+- **Trees**
+  - A hierarchical structure with nodes, where each node has a value and references to child nodes.
+  
+  - **Binary Trees**: Each node has at most two children.
+  
+  - **Binary Search Trees (BST)**: Left child nodes are less than the parent node, right child nodes are greater.
+  
+  - **AVL Trees**: A self-balancing binary search tree that maintains balance by ensuring the heights of two child subtrees of any node differ by at most one.
 
- <span style="color: black;">Backtracking</span> is a 
-<span style="color: darkorange;"><b>general algorithmic technique</b></span> used to solve problems 
-<span style="color: royalblue;">incrementally by trying out different possibilities</span> 
-and <span style="color: red;">discarding those that don't meet the conditions</span>.
+- **Graphs**
+  - A collection of nodes (vertices) connected by edges.
+  - Can be directed or undirected, weighted or unweighted.
 
-<br>
-It is particularly useful for problems involving 
-<span style="color: forestgreen;"><b>searching through a set of possibilities</b></span>, 
-like puzzles, mazes, permutations, combinations, and constraint satisfaction problems.
-</p>
+## 4. Searching Algorithms
+- **Linear Search**
+  - A simple method to find an element by checking each item sequentially.
+  
+- **Binary Search**
+  - An efficient method that requires a sorted array, dividing the search interval in half each time.
 
-<hr style="border: 2px solid coral; width: 90%;">
+## 5. Sorting Algorithms
+- **Merge Sort**
+  - A divide-and-conquer algorithm that splits the array into smaller subarrays, sorts them, and merges them back together.
+  
+- **Quick Sort**
+  - An efficient sorting algorithm that selects a 'pivot' and partitions the array into elements less than and greater than the pivot.
 
-<h3 style="font-family: Arial; color: teal;">Key Applications:</h3>
-<ul style="font-family: Verdana; font-size: 16px; padding-left: 20px;">
-  <li style="color: teal;">Puzzle Solving</li>
-  <li style="color: teal;">Mazes</li>
-  <li style="color: teal;">Permutations</li>
-  <li style="color: teal;">Constraint Satisfaction Problems</li>
-</ul>
+## 6. Graph Algorithms
+- **Breadth-First Search (BFS)**
+  - An algorithm that explores all neighbor nodes at the present depth prior to moving on to nodes at the next depth level.
+  
+- **Depth-First Search (DFS)**
+  - An algorithm that explores as far as possible along a branch before backtracking.
 
-```python
-def backtrack(solution, choices):
-    if solution_is_complete(solution):
-        process_solution(solution)
-    else:
-        for choice in choices:
-            make_choice(choice)
-            backtrack(solution, choices)
-            undo_choice(choice)
-
-```
-<h2 style="font-family: Arial; color: coral;">2. BFS </h2>
- 
-- An algorithm for traversing or searching a graph or tree level by level, exploring all neighboring nodes before moving to the next level.
-
-- Data Structure Used: BFS uses a queue to process nodes in the order they are discovered.
-
-- Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges.
-
-- Space Complexity: O(V), due to storage required for the queue and visited list.
+## 7. Advanced Concepts
+- **Dynamic Programming**
+  - A method for solving complex problems by breaking them down into simpler subproblems, storing results to avoid redundant calculations.
+  - Often used for optimization problems.
+  
+- **Greedy Algorithms**
+  - A strategy that makes the locally optimal choice at each stage with the hope of finding a global optimum. It does not guarantee the optimal solution for all problems but is efficient for certain types.
 
 
 Source: https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/
