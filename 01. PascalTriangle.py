@@ -1,15 +1,23 @@
 class Solution(object):
-    def Pascal_Triangle(self, RowNos):
-        triangle = []
+    def pascal_triangle(n):
+    a = []  
+
+    for i in range(n + 1):  
+        row = []  # Create a new row to populate with values for pascal_triangle to avoid Index out of bounds error
+        for j in range(i + 1):  
+            if j == 0 or j == i:
+                current_value = 1  
+            else:
+                current_value = a[i-1][j-1] + a[i-1][j]  
+            row.append(current_value)  
         
-        for i in range(RowNos):
-            row = [None] * (i + 1) 
-            #Above we have initialized a row of length i+1 with values 'None'
-            row[0], row[-1] = 1, 1 
-            #Above we are intializing elements at the extreme ends to be 1
-            for j in range(1, len(row) - 1):
-            # Below, Element j is found by the summation of elements from previous row (i-1) at positions j-1 and j
-                row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j]
-            triangle.append(row) #the obtained row is added to the triangle
-        
-        return triangle
+        a.append(row) 
+
+  
+        for value in row:
+            print(value, end=' ')
+        print()  # New line after each row
+
+n = 5
+pascal_triangle(n)
+
