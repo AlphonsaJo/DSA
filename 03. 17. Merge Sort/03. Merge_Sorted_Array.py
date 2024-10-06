@@ -1,24 +1,36 @@
-class Solution(object):
-    def merge(self, nums1, m, nums2, n):
-        
-        # Initialize pointers for nums1 and nums2
-        i = m - 1
-        j = n - 1
-        # Initialize pointer for the merged array at the end of nums1
-        k = m + n - 1
-        
-        # Merge elements from the end
-        while i >= 0 and j >= 0:
-            if nums1[i] > nums2[j]:
-                nums1[k] = nums1[i]
-                i -= 1
-            else:
-                nums1[k] = nums2[j]
-                j -= 1
-            k -= 1
+def merge_sort(arr):
+    if len(arr) > 1:
+        mid = len(arr) // 2  
+        left_half = arr[:mid]  
+        right_half = arr[mid:]
 
-        # If there are remaining elements in nums2, copy them to nums1
-        while j >= 0:
-            nums1[k] = nums2[j]
-            j -= 1
-            k -= 1
+        merge_sort(left_half)  
+        merge_sort(right_half)  
+
+        i = j = k = 0
+
+    
+        while i < len(left_half) and j < len(right_half):
+            if left_half[i] < right_half[j]:
+                arr[k] = left_half[i]
+                i += 1
+            else:
+                arr[k] = right_half[j]
+                j += 1
+            k += 1
+
+       
+        while i < len(left_half):
+            arr[k] = left_half[i]
+            i += 1
+            k += 1
+
+        while j < len(right_half):
+            arr[k] = right_half[j]
+            j += 1
+            k += 1
+
+
+data = [38, 27, 43, 3, 9, 82, 10]
+merge_sort(data)
+print("Sorted array:", data)
