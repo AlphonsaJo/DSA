@@ -33,11 +33,19 @@ Data structures are specialized formats for organizing and storing data, such as
 - **Stacks**
   - A collection of elements with Last-In-First-Out (LIFO) access.
   - Supports operations like push (add an item) and pop (remove the top item).
-  
+
+    <img src="https://github.com/user-attachments/assets/84effda8-3090-4be1-bd48-1578d8b7cca7" alt="stack" width="400" height="300" />
+
+    *image source: https://fullyunderstood.com/stack/*
+
 - **Queues**
   - A collection of elements with First-In-First-Out (FIFO) access.
   - Supports operations like enqueue (add an item) and dequeue (remove the front item).
-
+    
+   ![0_HUWegihFk4x2x5vS](https://github.com/user-attachments/assets/5004a15a-60ab-4713-9565-2197c8baa156)
+  
+   *image source: https://medium.com/@damianmdst/data-structures-part-1-queues-how-to-implement-517320cffacc*
+  
 ## 2. Linear Data Structures
 - **Arrays**
   - A collection of items stored in contiguous memory locations.
