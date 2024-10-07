@@ -34,17 +34,18 @@ Data structures are specialized formats for organizing and storing data, such as
   - A collection of elements with Last-In-First-Out (LIFO) access.
   - Supports operations like push (add an item) and pop (remove the top item).
 
-    <img src="https://github.com/user-attachments/assets/84effda8-3090-4be1-bd48-1578d8b7cca7" alt="stack" width="400" height="300" />
+       <img src="https://github.com/user-attachments/assets/84effda8-3090-4be1-bd48-1578d8b7cca7" alt="stack" width="400" height="300" />
 
-    *image source: https://fullyunderstood.com/stack/*
+       *image source: https://fullyunderstood.com/stack/*
 
 - **Queues**
   - A collection of elements with First-In-First-Out (FIFO) access.
   - Supports operations like enqueue (add an item) and dequeue (remove the front item).
+
     
-   ![0_HUWegihFk4x2x5vS](https://github.com/user-attachments/assets/5004a15a-60ab-4713-9565-2197c8baa156)
+      <img src = "https://github.com/user-attachments/assets/5004a15a-60ab-4713-9565-2197c8baa156" alt="queue" width="400" height="300" />
   
-   *image source: https://medium.com/@damianmdst/data-structures-part-1-queues-how-to-implement-517320cffacc*
+      *image source: https://medium.com/@damianmdst/data-structures-part-1-queues-how-to-implement-517320cffacc*
   
 ## 2. Linear Data Structures
 - **Arrays**
@@ -55,6 +56,10 @@ Data structures are specialized formats for organizing and storing data, such as
   - A collection of nodes, each containing data and a reference to the next node.
   - Supports dynamic size and efficient insertions/deletions.
 
+
+      <img src = "https://github.com/user-attachments/assets/c45a3130-dd75-4099-a13e-8ffb0756e43e" alt="linked-list" width="600" height="300" />
+
+
 ## 3. Non-linear Data Structures
 - **Trees**
   - A hierarchical structure with nodes, where each node has a value and references to child nodes.
@@ -62,8 +67,18 @@ Data structures are specialized formats for organizing and storing data, such as
   - **Binary Trees**: Each node has at most two children.
   
   - **Binary Search Trees (BST)**: Left child nodes are less than the parent node, right child nodes are greater.
+    
+
+      <img src = "https://github.com/user-attachments/assets/352f1d28-1b9c-4ddd-b492-f48d37e1dfe7" alt="BST" width="400" height="300" />
+  
+  *image source wikimedia commons*
+
   
   - **AVL Trees**: A self-balancing binary search tree that maintains balance by ensuring the heights of two child subtrees of any node differ by at most one.
+    
+
+      <img src = "https://github.com/user-attachments/assets/acdfcfe9-0c52-443f-9bd0-73c70332ec16" alt="AVL" width="600" height="300" />
+
 
 - **Graphs**
   - A collection of nodes (vertices) connected by edges.
@@ -97,6 +112,9 @@ Data structures are specialized formats for organizing and storing data, such as
   
 - **Greedy Algorithms**
   - A strategy that makes the locally optimal choice at each stage with the hope of finding a global optimum. It does not guarantee the optimal solution for all problems but is efficient for certain types.
+ 
+    ![Greedy-search-path-example](https://github.com/user-attachments/assets/48cf442c-323f-4276-b67d-64f897bc48e3)
+
 
 
 Source: https://www.geeksforgeeks.org/dsa-crash-course-interview-guide/
