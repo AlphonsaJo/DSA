@@ -41,11 +41,6 @@ Data structures are specialized formats for organizing and storing data, such as
 - **Queues**
   - A collection of elements with First-In-First-Out (FIFO) access.
   - Supports operations like enqueue (add an item) and dequeue (remove the front item).
-
-    
-      <img src = "https://github.com/user-attachments/assets/5004a15a-60ab-4713-9565-2197c8baa156" alt="queue" width="400" height="300" />
-  
-      *image source: https://medium.com/@damianmdst/data-structures-part-1-queues-how-to-implement-517320cffacc*
   
 ## 2. Linear Data Structures
 - **Arrays**
@@ -57,7 +52,7 @@ Data structures are specialized formats for organizing and storing data, such as
   - Supports dynamic size and efficient insertions/deletions.
 
 
-      <img src = "https://github.com/user-attachments/assets/c45a3130-dd75-4099-a13e-8ffb0756e43e" alt="linked-list" width="600" height="300" />
+      <img src = "https://github.com/user-attachments/assets/c45a3130-dd75-4099-a13e-8ffb0756e43e" alt="linked-list" width="400" height="150" />
 
 
 ## 3. Non-linear Data Structures
@@ -77,8 +72,7 @@ Data structures are specialized formats for organizing and storing data, such as
   - **AVL Trees**: A self-balancing binary search tree that maintains balance by ensuring the heights of two child subtrees of any node differ by at most one.
     
 
-      <img src = "https://github.com/user-attachments/assets/acdfcfe9-0c52-443f-9bd0-73c70332ec16" alt="AVL" width="600" height="300" />
-
+     <!--  FOR AVL: <img src = "https://github.com/user-attachments/assets/acdfcfe9-0c52-443f-9bd0-73c70332ec16" alt="AVL" width="600" height="300" /> ''' -->
 
 - **Graphs**
   - A collection of nodes (vertices) connected by edges.
