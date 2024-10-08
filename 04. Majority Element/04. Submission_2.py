@@ -1,3 +1,7 @@
+'''
+Iterating over set(nums) avoids counting the same element multiple times.
+Using // ensures an integer result for the majority constraint.
+'''
 class Solution(object):
     def majorityElement(self, nums):
         constraint = len(nums) // 2
