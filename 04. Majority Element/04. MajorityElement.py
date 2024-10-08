@@ -15,9 +15,8 @@ class Solution(object):
                 unique_elements.append(num)
                 counts.append(1)
 
-        # Find the index of the element with the maximum count
         majority_index = counts.index(max(counts))
-        # Retrieve the corresponding element from unique_elements
+      
         majority_element = unique_elements[majority_index]x]
 
         return majority_element
