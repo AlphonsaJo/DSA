@@ -1,5 +1,7 @@
 # DSA
 
+### A readme compiled by me consisting of notes on various DSA codes. 
+
 Data structures are specialized formats for organizing and storing data, such as arrays, linked lists, stacks, and trees. Algorithms are step-by-step procedures or formulas for solving problems and performing tasks, like sorting and searching.
 
 ### Importance of DSA
